@@ -1,0 +1,43 @@
+# COGOS .gitignore
+
+# Sensitive data
+*.env
+*.key
+*_private.json
+credentials/
+
+# Large data files (use Git LFS if needed)
+*.zip
+*.tar.gz
+*.db
+*.sqlite
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+dist/
+build/
+*.pyc
+__pycache__/
+node_modules/
+
+# Generated reports (commit final versions manually)
+*_draft.pdf
+*_wip.md
